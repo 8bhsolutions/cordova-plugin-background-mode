@@ -26,8 +26,9 @@ Use the plugin by your own risk!
 
 ## Installation
 
+``` bash
 cordova plugin add https://github.com/8bhsolutions/cordova-plugin-background-mode.git
-
+```
 
 ## Usage
 The plugin creates the object `cordova.plugins.backgroundMode` and is accessible after the *deviceready* event has been fired.
