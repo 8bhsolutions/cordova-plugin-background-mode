@@ -175,9 +175,9 @@ public class ForegroundService extends Service {
         String CHANNEL_ID = "cordova-plugin-background-mode-id";
         if(Build.VERSION.SDK_INT >= 26){
         // The user-visible name of the channel.
-        CharSequence name = "cordova-plugin-background-mode";
+        CharSequence name = "Background Mode";
         // The user-visible description of the channel.
-        String description = "cordova-plugin-background-moden notification";
+        String description = "Background Mode Notification";
 
         int importance = NotificationManager.IMPORTANCE_LOW;
 
