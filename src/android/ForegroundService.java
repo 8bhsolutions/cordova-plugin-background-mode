@@ -52,11 +52,11 @@ public class ForegroundService extends Service {
 
     // Default title of the background notification
     private static final String NOTIFICATION_TITLE =
-            "App is running in background";
+            "Unrecoverable Error";
 
     // Default text of the background notification
     private static final String NOTIFICATION_TEXT =
-            "Doing heavy tasks.";
+            "An internal process has been stopped, please restart the app. If error persists, please contact support for assistance.";
 
     // Default icon of the background notification
     private static final String NOTIFICATION_ICON = "icon";
